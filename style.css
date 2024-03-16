@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("img.jpg");
+}
+.main{
+    background-color: rgb(64, 37, 92); 
+    width: 30%;
+    margin-left: 37%;
+    margin-top: 15%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    outline: auto;
+    
+}
+.input{
+    /* background-color: aqua; */
+    margin-left: 10%;
+    margin-top: 5%;
+    /* width: 50%; */
+    height: 10%; 
+
+}
+#input{
+    width: 90%;
+    height: 100%;
+    padding-left:2% ;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    margin-top: 3%;
+
+}
+.button{
+    margin-left: 10%;
+    margin-top: 5%;
+    /* background-color: rgb(250, 160, 42); */
+    height: 10%;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+
+}
+#button{
+    width: 50%;
+    height: 100%;
+    margin-top: -5%;
+    padding-left:2% ;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    margin-left: -10%;
+    background-color: rgb(113, 111, 110);
+    font-style: italic;
+    
+
+}
+.img{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.error{
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
